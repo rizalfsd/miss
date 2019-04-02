@@ -24,7 +24,7 @@ body{
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-size: 15vm;
+    font-size: 150vm;
     transform-style: preserve-3d;
     transition: .5s;
 }
@@ -59,7 +59,7 @@ body{
 p{
     color: #FF00FF;
     font-family:arial;
-    font-size: 12vm;
+    font-size: 120vm;
     position: absolute;
     top:60%;
     left: 50%;
@@ -71,5 +71,5 @@ p{
 .center:hover ~ p{
     transform: perspective(1000px) translate(-50%,-50%) skewY(0deg);
     border:none;
-    font-size: 13vm;
+    font-size: 130vm;
 }
